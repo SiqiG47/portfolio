@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(120, 153, 142);
+    color: rgb(117, 91, 72);
+}
+h1{
+    font-size: 2em;
+    color: rgb(169, 183, 212);
+}
+h2{
+    font-size: 1.3em;
+    color: rgb(169, 183, 212);
+    margin-left: 4em;
+}
+img{
+    width:210px;
+    height:270px;
+    margin-left: 5em;
+}
+footer{
+    color: rgb(169, 183, 212);
+}
+div p{
+    background-color: cadetblue;
+    line-height: 2em;
+    margin-left: 20em;
+    margin-right: 5em;
+}
+li{
+    list-style: none;
+    background-color: cadetblue;
+    line-height: 2.5em;
+    margin-left: 2.5em;
+    margin-right: 5em;
+}
+ul p, ol p{
+    line-height: 1.5em;
+    margin-left: 2.5em;
+    margin-right: 5em;
+}
+ol div img{
+    width: 170px;
+    height: 230px;
+}
+
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(163, 148, 137);
+    margin-bottom: 2em;
+  }
+  
+#menu li {
+    float: left;
+  }
+  
+#menu li a {
+    display: block;
+    color: white;
+    background-color: rgb(163, 148, 137);
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+#menu li a:hover {
+    background-color: rgb(120, 153, 142);
+  }
+
+  section {
+    display: flex;
+   }
+   
+   article {
+    flex: 2
+   }
+   article p, article li{
+       margin-left: 5em;
+       margin-bottom: 3em;
+   }
+   
